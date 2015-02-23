@@ -1,0 +1,436 @@
+# French translations for Ruby on Rails
+# by Christian Lescuyer (christian@flyingcoders.com)
+# contributors:
+#  - Sebastien Grosjean - ZenCocoon.com
+#  - Bruno Michel - http://github.com/nono
+#  - Tsutomu Kuroda - http://github.com/kuroda (t-kuroda@oiax.jp)
+# Emended by Benjamin des Gachons and Patrick Chew : <http://www.fitima.org/docs/fiche.pdf>
+
+fr:
+  Purchase_or_Lease: Achat ou Loyer
+  Service: Services
+  subscribe: SOUSCRIRE
+  listing: PUBLIER UNE ANNONCE
+  title_html: <h4 style="font-family:Calibri", align="center"><font color="bd9130"><font size="10">Tout L'immobilier - Seulement L'immobilier</font></font></h4>
+  subtitle_html:  <font color="ff0019"><h2 style="font-family:Calibri"><strong>Ce que vous cherchez?</strong></h2></font>
+        <p class="lead"></p>
+  semititle_html:  <font color="bd9130"><h3 class="panel-title", style="font-family:Calibri"><strong>L'IMMOBILIER RÉSIDENTIEL</strong></h3></font>
+  csemititle_html: <font color="bd9130"><h3 class="panel-title", style="font-family:Calibri"><strong>L'IMMOBILIER COMMERCIAL</strong></h3></font>
+  ssemititle_html: <font color="bd9130"><h3 class="panel-title", style="font-family:Calibri"><strong>SERVICES IMMOBILIERS</strong></h3></font>
+  navbar_home: Page D'accueil
+  navbar_memberships: Annoncez un Service L'immobilier
+  navbar_search: Trouver
+  navbar_about: Qui sommes-nous
+  navbar_language: Langue
+  navbar_english: Anglais
+  navbar_french: Francais
+  navbar_account: Signer ou Se connecter
+  navbar_create: Enregistrer Dans Ontario's Only
+  navbar_signin: Connecter Dans Ontario's Only
+  navbar_notmember: Pas un membre
+  navbar_member: Déjà membre
+  navbar_residential: Résidentiel Propriété Listing
+  navbar_commercial: Commercial Propriété Listing
+  navbar_realservices: Services Immobiliers
+  searchtextbox: Entrer une localisation (Adresse, Vile, Code postal)
+  advancesearch: OPTIONS DE RECHERCHE AVANCÉES
+  salerent: Logement à Acheter ou à Louer
+  propertytype: Type de Propriété
+  status: La situation
+  construction: Type de Construction
+  foreclosure: Forclusion
+  bedrooms: Chambres
+  price: Prix
+  details: Détails du bien
+  agentphone: Agent Immobilier Téléphone
+  agentemail: Agent Immobilier Email
+  commercialwebsite: Site de l'entreprise
+  realestatecompany: Société Immobilière
+  officephone: Téléphone de Bureau
+  suites: Total des Suites
+  floornumbers: Numéros d'étage
+  listingagent: Agent Immobilier
+  fullbathrooms: Salles de Bain Complètes
+  halfbathrooms: Salles de Bains de Moitié
+  minsqft: Pieds Carrés Minimaux
+  maxsqft: Pieds carrés Maximales
+  minprice: Prix Minimum 
+  maxprice: Prix Maximum
+  searchbtn: Recherche
+  searchservices: RECHERCHE
+  add_service: Ajouter un Service
+  servicestitle_html: <h2 style="font-family:Arial">Tous les services immobiliers de l'Ontario</h2>
+  listed_by: Posté par %{user}
+  new_residential: Ajouter une nouvelle propriété
+  new_commercial: Ajouter une nouvelle propriété
+  squarefeet: Pieds Carrés
+  privatepool: Piscine Privée
+  waterview: Vue sur l'eau
+  golf: Terrain de Golf
+  water: Bord de l'eau
+  privacy_html: <h2 style="font-family:Arial"><strong>POLITIQUE DE CONFIDENTIALITÉ</strong></h2>
+  jumbotron_residentialtitle_html: <h2>Résidentiel Propriété Listing</h2>
+  jumbotron_commercialtitle_html: <h2>Commercial Propriété Listing</h2>
+  architect_html: <h3 class="panel-title">ARCHITECTES</h3>
+  airconditioner_html: <h3 class="panel-title">CLIMATISEUR/ CHAUFFAGE / VENTILATION</h3>
+  asphalt_html: <h3 class="panel-title">ENTREPRISES D'ASPHALTE</h3>
+  banks_html:  <h3 class="panel-title">BANQUES</h3>
+  builder_html:  <h3 class="panel-title">CONSTRUCTEURS</h3>
+  building_html: <h3 class="panel-title">MATÉRIAUX DE CONSTRUCTION</h3>
+  cashbuyer_html: <h3 class="panel-title">ACHETEUR AU COMPTANT</h3>
+  cabinet_html: <h3 class="panel-title">CABINETS</h3>
+  cement_html:  <h3 class="panel-title">CIMENT ET DU BÉTON</h3>
+  cleaning_html:  <h3 class="panel-title">SERVICE DE NETTOYAGE</h3>
+  countertops_html: <h3 class="panel-title">COMPTOIR ET SURFACES</h3>
+  cleaningremoval_html:  <h3 class="panel-title">NETTOYAGE EVACUATION</h3>
+  decks_html: <h3 class="panel-title">TERRASSES ET LES CLôTURES</h3>
+  drywall_html: <h3 class="panel-title">DRYWALL</h3>
+  electricians_html: <h3 class="panel-title">ÉLECTRICIENS</h3>
+  eav_html:  <h3 class="panel-title">GOUTTIÈRES</h3>
+  exterior_html: <h3 class="panel-title">EXTÉRIEUR DESIGNERS</h3>
+  engineer_html: <h3 class="panel-title">INGÉNIEURS</h3>
+  flooring_html: <h3 class="panel-title">REVÉTEMENT DE SOL</h3>
+  framing_html: <h3 class="panel-title">ENCADREMENT</h3>
+  foundation_html: <h3 class="panel-title">FONDATIONS (NOUVEAU + RÉPARATION)</h3>
+  fireplace_html: <h3 class="panel-title">FOYER</h3>
+  general_html: <h3 class="panel-title">CONTRACTEUR</h3>
+  homeinspector_html: <h3 class="panel-title">INSPECTEUR DE LA MAISON</h3>
+  hardmoney_html: <h3 class="panel-title">PRÊTEUR</h3>
+  theater_html: <h3 class="panel-title">CINÉMA MAISON</h3>
+  insulation_html:  <h3 class="panel-title">ISOLATION</h3>
+  interior_html: <h3 class="panel-title">DESIGNERS D'INTÉRIEUR</h3>
+  wood_html: <h3 class="panel-title">BOIS / VINYLE / ALUMINIUM</h3>
+  light_html: <h3 class="panel-title">D'ÉCLAIRAGE / VENTILATEUR</h3>
+  landscaping_html: <h3 class="panel-title">LANDSCAPING</h3>
+  landsurveyors_html: <h3 class="panel-title">ARPENTEURS-GÉOMÈTRES</h3>
+  moving_html: <h3 class="panel-title">DÉMÉNAGEURS</h3>
+  mortgage_html: <h3 class="panel-title">COURTIERS EN HYPOTHÈQUES</h3>
+  mold_html: <h3 class="panel-title">INSPECTEURS DE LA MOULE</h3>
+  paint_html: <h3 class="panel-title">PEINTURE</h3>
+  plumbing_html: <h3 class="panel-title">PLOMBERIE</h3>
+  privatefirm_html: <h3 class="panel-title">ENTREPRISES PRIVÉES D'ÉVALUATION</h3>
+  propertyfirm_html: <h3 class="panel-title">SOCIÉTÉS DE GESTION DE PROPRIÉTÉ</h3>
+  poolcleaner_html: <h3 class="panel-title">NETTOYEURS DE PISCINE</h3>
+  poolrepair_html: <h3 class="panel-title">RÉPARATION DE PISCINES</h3>
+  realtor_html: <h3 class="panel-title">AGENTS IMMOBILIERS</h3>
+  accountant_html: <h3 class="panel-title">COMPTABLES IMMOBILIER</h3>
+  lawyer_html: <h3 class="panel-title">AVOCATS EN DROIT IMMOBILIER</h3>
+  realestate_html: <h3 class="panel-title">SOCIÉTÉS IMMOBILIÉRES</h3>
+  rentalpropertyfirm_html: <h3 class="panel-title">LOYER FIRM</h3>
+  remodel_html: <h3 class="panel-title">SPÉCIALISTE DE RÉNOVATION</h3>
+  roofing_html: <h3 class="panel-title">TOITURE</h3>
+  security_html: <h3 class="panel-title">SOCIÉTÉS DE SÉCURITÉ</h3>
+  septic_html: <h3 class="panel-title">SPÉCIALISTES SEPTIQUES</h3>
+  solarscreen_html: <h3 class="panel-title">ÉCRAN SOLAIRE/TRAITEMENT DE FENÉTRE</h3>
+  staging_html: <h3 class="panel-title">SOCIÉTÉS D'ARRÊT</h3>
+  soffit_html: <h3 class="panel-title">SOFFITE FASCIA</h3>
+  spapool_html: <h3 class="panel-title">PISCINES SPA VENTES/INSTALERS/RÉPARATION</h3>
+  solarenergy_html: <h3 class="panel-title">ÉNERGIE SOLAIRE</h3>
+  dissable_html: <h3 class="panel-title">PERSONNES TROISIèME ACCUEIL ÉQUIPEMENT OU HANDICAPES ACCUEIL ÉQUIPEMENT</h3>
+  tax_html: <h3 class="panel-title">SPÉCIALISTE DE LA FISCALITÉ</h3>
+  termite_html: <h3 class="panel-title">INSPECTEURS TERMITES</h3>
+  titlecompany_html: <h3 class="panel-title">LES SOCIÉTÉS DE TITRE</h3>
+  windows_html: <h3 class="panel-title">FABRICANTS WINDOWS ET INSTALLATEURS</h3>
+  weather_html: <h3 class="panel-title">CONDITIONS MÉTÉOS / HIVERNAGE</h3>
+  searchresidential_html: <h4><strong>Trouver l'immobilier Résidentiel</strong></h4>
+  searchcommercial_html: <h4><strong>Trouver l'immobilier Commerciale</strong></h4>
+  adtitle_html: <font color="cf142b"><h2 style="font-family:Calibri"><strong>Choisissez votre plan de publicité Ou Proposer un hébergement en Location/Vente Et maximiser les clients pour votre entreprise!</strong></h2></font>
+        <p class="lead"></p>
+  adsubtitle_html:   <font color="858585"><h6 style="font-family:Calibri"><strong>*Pour annuler votre abonnement se il vous plaît contactez-nous à notre e-mail de soutien à la clientèle ou notre téléphone de support client..</strong></h6></font>
+        <p class="lead"></p>
+  psubtitle_html:  <font color="bf0a30"><h4 style="font-family:Calibri"><strong>*Demandez notre Platinum et Diamond Packages</strong></h4></font>
+        <p class="lead"></p>
+  wsubtitle_html: <font color="bf0a30"><h4 style="font-family:Calibri"><strong>*Renseignez-vous sur notre service de développement site web pour votre entreprise par D&G Global <br> de lier votre entreprise avec Ontario's Only afin de maximiser vos clients..</strong></h4></font>
+        <p class="lead"></p>
+  contact_html: <h4 style="font-family:Calibri"> <strong> Contactez-nous:</strong></h4>
+  about_html: <h4 style="font-family:Calibri"><strong> Qui sommes-nous:</strong></h4><h6>Ontario's Only est une société de marketing en ligne qui propose un service de publicité proffessional à tous les professionnels de l'immobilier dans la province de l'Ontario au Canada.</h6>
+  follow_html: <h4 style="font-family:Calibri"><strong>SUIVEZ-NOUS<strong></h4>
+  companyinfo: INFORMATIONS D'ENTREPRISE
+  jumbotron_title_html: <h2>Annoncez Services Immobiliers</h2>
+  businessname: Nom de L'entreprise
+  website: Site de L'entreprise
+  address: Adresse
+  zipcode: Code postal
+  city: Ville
+  businessphone: Entreprise Téléphone
+  contactname: Nom du Contact
+  businessemail: Email de compagnie
+  plan: SE IL VOUS PLAîT SéLECTIONNEZ UN PLAN DE PUBLICITé
+  paymentinfo: INFORMATIONS DE PAIEMENT
+  name: Nom Complet
+  billingaddress: Adresse de Facturation
+  email: Email
+  creditcard: Numéro de Carte de Crédit
+  securitycode: Code de Sécurité(CVV)
+  cardexpiration: Date d'expiration
+  submit: Soumettre la Commande
+  ourcompany_html: <h2 style="font-family:Arial"><strong>NOTRE ENTREPRISE</strong></h2>
+  bodycompany_html: <h4><strong>Ontario's Only</strong> est une société de marketing en ligne qui offre un service professionnel de la publicité à tous les professionnels de l'immobilier dans la province du Canada.<br><br><strong>Ontario's Only</strong> fait partie de l'un des <strong>D&G Global</strong> stratégies de logiciels de marketing qui offrent à leurs clients de maximiser les clients et leurs entreprises. <br><br><strong>D&G Global</strong> est une société de conseil de développement de logiciels qui offrent des services de technologies personnalisées comme les services de développement de site web pour votre entreprise de les relier avec <strong>Ontario's Only</strong> pour maximiser vos clients par le biais de technologies de développement web les plus récents ainsi que des stratégies de marketing. <br></h4>
+  subbodycompany_html: <p><h4><strong>COMMENT NOUS CONTACTER</strong></h4>
+  morecompany_html: <h4>Si vous souhaitez nous contacter pour toutes questions ou des commentaires se il vous plaît envoyez un courriel à <strong>customers@ontariosonly.ca</strong> ou appelez au <strong>1-844-ONT-ONLY</strong><br></p></h4>
+  jumbotron_flooringstitle_html: <h2>Revêtement de Sol Services</h2>
+  jumbotron_drywalltitle_html: <h2>Cloisons Sèches Services</h2>
+  jumbotron_cabinetstitle_html: <h2>Armoires de Cuisine Services</h2>
+  jumbotron_countertoptitle_html: <h2>Services de Comptoir</h2>
+  jumbotron_architecttitle_html:  <h2>Les Services d'architectes</h2>
+  jumbotron_accountantstitle_html: <h2>Comptables Services</h2> 
+  jumbotron_airconditionertitle_html: <h2>Services de Climatiseur et de Ventilation</h2>
+  jumbotron_cashbuyertitle_html: <h2>Services de Acheteur de Trésorerie</h2>
+  jumbotron_framingtitle_html: <h2>Des services d'encadrement</h2>
+  jumbotron_contratortitle_html: <h2>Contracteur Services</h2>
+  jumbotron_hardmoneytitle_html: <h2>Les Services de l'argent de Prêteurs</h2>
+  jumbotron_homeinspectortitle_html: <h2>Services d'inspection de la Maison</h2>
+  jumbotron_insulationtitle_html: <h2>Services d'isolation</h2>
+  jumbotron_interiordesignertitle_html: <h2>Décorateur d'intérieurs</h2> 
+  jumbotron_landscapingtitle_html: <h2>Services d'aménagement Paysagers</h2>
+  jumbotron_landsurveyortitle_html: <h2>Services d'arpenteur-géomètre</h2> 
+  jumbotron_lawyertitle_html: <h2>Services d'avocat de l'immobilier</h2>
+  jumbotron_moldtitle_html: <h2>Services de Moule</h2>
+  jumbotron_mortgagetitle_html: <h2>Services de prêts Hypothécaires</h2>
+  jumbotron_movingtitle_html: <h2>Services de Déménagement</h2>
+  jumbotron_paintingtitle_html: <h2>Services de Peinture</h2>
+  jumbotron_plumbingtitle_html: <h2>Services de Plomberie</h2>
+  jumbotron_poolcleanertitle_html: <h2>Services de Nettoyage de Piscine</h2>
+  jumbotron_poolrepairtitle_html: <h2>Services de Réparation Piscine</h2>
+  jumbotron_privatebanktitle_html: <h2>Les Services Bancaires</h2>
+  jumbotron_privatefirmtitle_html: <h2>Services de Sociétés Privées</h2>
+  jumbotron_propertymanagetitle_html: <h2>Entreprises de Gestion Immobilière</h2>
+  jumbotron_realestatetitle_html: <h2>Sociétés Immobilières</h2>
+  jumbotron_realtortitle_html: <h2>Les Agents Immobiliers</h2>
+  jumbotron_rentalpropertytitle_html: <h2>Services de Biens Locatifs</h2>
+  jumbotron_roofingtitle_html: <h2>Services de Toiture</h2>
+  jumbotron_securitytitle_html: <h2>Services de Sécurité</h2>
+  jumbotron_septictitle_html: <h2>Services Septiques</h2>
+  jumbotron_solarscreentitle_html: <h2>Services d'écran Solaire</h2>
+  jumbotron_stagingtitle_html: <h2>Services de Mise en Scène</h2>
+  jumbotron_taxestitle_html: <h2>Spécialiste des Taxes</h2>
+  jumbotron_termitetitle_html: <h2>Inspecteurs de Termites</h2>
+  jumbotron_titletitle_html: <h2>Les sociétés de Titre</h2>
+  jumbotron_windowtitle_html: <h2>Fenêtres</h2>
+  jumbotron_missingservicestitle_html: <h2>Services Immobiliers</h2>
+  jumbotron_asphalttitle_html: <h2>Services d'asphalte</h2>
+  searchservice_html: <h4><strong>Trouver un Service</strong></h4>
+  jumbotron_subscriptiontitle_html: <h2>Les Entreprises Immobilières Abonné</h2>
+  companynamesubscription_html: <strong><th class="center">Nom de l'entreprise</th></strong>
+  companysitesubscription_html: <strong><th class="center">Site de la Société</th></strong>
+  addresssubscription_html: <strong><th class="center">Adresse</th></strong>
+  citysubscription_html: <strong><th class="center">Ville</th></strong>
+  zipcodesubscription_html: <strong><th class="center">Code Postal</th></strong>
+  phonesubscription_html: <strong><th class="center">Numéro de Téléphone</th></strong>
+  actionsubscription_html: <th class="center">Activité</th>
+  add_subscription: SOUSCRIRE
+  servicecompanywebsite: Site de L'entreprise
+  servicecompanyphone: Téléphone de la Compagnie
+  servicecompanyaddress: Adresse
+  addservice: Ajouter le service immobilier
+  searchresults_html: <h4><strong>RECHERCHE:</strong></h4><br>
+  back: Arrière
+  companycontactname: Nom de l'entreprise de Contact
+  companyservicephone: téléphone de la Compagnie
+  generalcompany: Les détails de l'information de l'entreprise
+  mapview: Carte Emplacement
+  date:
+    abbr_day_names:
+      - dim
+      - lun
+      - mar
+      - mer
+      - jeu
+      - ven
+      - sam
+    abbr_month_names:
+      - ~
+      - jan.
+      - fév.
+      - mar.
+      - avr.
+      - mai
+      - juin
+      - juil.
+      - août
+      - sept.
+      - oct.
+      - nov.
+      - déc.
+    day_names:
+      - dimanche
+      - lundi
+      - mardi
+      - mercredi
+      - jeudi
+      - vendredi
+      - samedi
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+    month_names:
+      - ~
+      - janvier
+      - février
+      - mars
+      - avril
+      - mai
+      - juin
+      - juillet
+      - août
+      - septembre
+      - octobre
+      - novembre
+      - décembre
+    order:
+      - :day
+      - :month
+      - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one:   "environ une heure"
+        other: "environ %{count} heures"
+      about_x_months:
+        one:   "environ un mois"
+        other: "environ %{count} mois"
+      about_x_years:
+        one:   "environ un an"
+        other: "environ %{count} ans"
+      almost_x_years:
+        one:   "presqu'un an"
+        other: "presque %{count} ans"
+      half_a_minute: "une demi-minute"
+      less_than_x_minutes:
+        zero:  "moins d'une minute"
+        one:   "moins d'une minute"
+        other: "moins de %{count} minutes"
+      less_than_x_seconds:
+        zero:  "moins d'une seconde"
+        one:   "moins d'une seconde"
+        other: "moins de %{count} secondes"
+      over_x_years:
+        one:   "plus d'un an"
+        other: "plus de %{count} ans"
+      x_days:
+        one:   "1 jour"
+        other: "%{count} jours"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      x_months:
+        one:   "1 mois"
+        other: "%{count} mois"
+      x_seconds:
+        one:   "1 seconde"
+        other: "%{count} secondes"
+    prompts:
+      day:    "Jour"
+      hour:   "Heure"
+      minute: "Minute"
+      month:  "Mois"
+      second: "Seconde"
+      year:   "Année"
+  errors:
+    format: "%{attribute} %{message}"
+    messages: &errors_messages
+      accepted: "doit être accepté(e)"
+      blank: "doit être rempli(e)"
+      present: "doit être vide"
+      confirmation: "ne concorde pas avec la confirmation"
+      empty: "doit être rempli(e)"
+      equal_to: "doit être égal à %{count}"
+      even: "doit être pair"
+      exclusion: "n'est pas disponible"
+      greater_than: "doit être supérieur à %{count}"
+      greater_than_or_equal_to: "doit être supérieur ou égal à %{count}"
+      inclusion: "n'est pas inclus(e) dans la liste"
+      invalid: "n'est pas valide"
+      less_than: "doit être inférieur à %{count}"
+      less_than_or_equal_to: "doit être inférieur ou égal à %{count}"
+      not_a_number: "n'est pas un nombre"
+      not_an_integer: "doit être un nombre entier"
+      odd: "doit être impair"
+      record_invalid: "La validation a échoué : %{errors}"
+      restrict_dependent_destroy:
+        one: "Suppression impossible: un autre enregistrement est lié"
+        many: "Suppression impossible: d'autres enregistrements sont liés"
+      taken: "n'est pas disponible"
+      too_long:
+        one: "est trop long (pas plus d'un caractère)"
+        other: "est trop long (pas plus de %{count} caractères)"
+      too_short:
+        one: "est trop court (au moins un caractère)"
+        other: "est trop court (au moins %{count} caractères)"
+      wrong_length:
+        one: "ne fait pas la bonne longueur (doit comporter un seul caractère)"
+        other: "ne fait pas la bonne longueur (doit comporter %{count} caractères)"
+      other_than: "doit être différent de %{count}"
+    template: &errors_template
+      body: "Veuillez vérifier les champs suivants : "
+      header:
+        one:   "Impossible d'enregistrer ce(tte) %{model} : 1 erreur"
+        other: "Impossible d'enregistrer ce(tte) %{model} : %{count} erreurs"
+  helpers:
+    select:
+      prompt: "Veuillez sélectionner"
+    submit:
+      create: "Créer un(e) %{model}"
+      submit: "Enregistrer ce(tte) %{model}"
+      update: "Modifier ce(tte) %{model}"
+  number:
+    currency:
+      format:
+        delimiter: " "
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "€"
+    format:
+      delimiter: " "
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: "milliard"
+          million: "million"
+          quadrillion: "million de milliards"
+          thousand: "millier"
+          trillion: "billion"
+          unit: ""
+      format:
+        delimiter: ""
+        precision: 2
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one:   "octet"
+            other: "octets"
+          gb: "Go"
+          kb: "ko"
+          mb: "Mo"
+          tb: "To"
+    percentage:
+      format:
+        delimiter: ""
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ""
+  support:
+    array:
+      last_word_connector: " et "
+      two_words_connector: " et "
+      words_connector: ", "
+  time:
+    am: 'am'
+    formats:
+      default: "%d %B %Y %Hh %Mmin %Ss"
+      long: "%A %d %B %Y %Hh%M"
+      short: "%d %b %Hh%M"
+    pm: 'pm'

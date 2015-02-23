@@ -1,0 +1,53 @@
+<%= form_for(@staging) do |f| %>
+  <% if @staging.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@staging.errors.count, "error") %> prohibited this staging from being saved:</h2>
+
+      <ul>
+      <% @staging.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :company_name %><br>
+    <%= f.text_field :company_name %>
+  </div>
+  <div class="field">
+    <%= f.label :company_description %><br>
+    <%= f.text_area :company_description %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :zipcode %><br>
+    <%= f.number_field :zipcode %>
+  </div>
+  <div class="field">
+    <%= f.label :contact_name %><br>
+    <%= f.text_field :contact_name %>
+  </div>
+  <div class="field">
+    <%= f.label :company_website %><br>
+    <%= f.text_field :company_website %>
+  </div>
+  <div class="field">
+    <%= f.label :company_phone %><br>
+    <%= f.text_field :company_phone %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
